@@ -1,0 +1,16 @@
+{
+  "name": "lab-ci-guardrails",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small HTTP service for practicing local and shared CI guardrails",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "9.33.0",
+    "eslint": "9.33.0"
+  }
+}
