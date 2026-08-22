@@ -1,5 +1,5 @@
 {
-  "name": "CI Guardrails Lab",
+  "name": "GitHub Actions CI Lab",
   "build": {
     "dockerfile": "Dockerfile"
   },

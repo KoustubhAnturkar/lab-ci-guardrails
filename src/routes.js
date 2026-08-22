@@ -1,4 +1,3 @@
-const logger = require("./logger");
 const { publicContext } = require("./utils");
 
 function sendJson(response, status, body) {

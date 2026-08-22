@@ -2,7 +2,7 @@
   "name": "lab-ci-guardrails",
   "version": "1.0.0",
   "private": true,
-  "description": "A small HTTP service for practicing local and shared CI guardrails",
+  "description": "A small HTTP service for practicing continuous integration with GitHub Actions",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
