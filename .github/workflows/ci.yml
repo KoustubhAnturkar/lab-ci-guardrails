@@ -1,0 +1,19 @@
+name: 
+
+on: [push, pull_request]
+
+jobs:
+  ci_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: '.nvmrc'
+      - name: Run npm ci
+        run: npm ci
+      - name: Run lint
+        run: npm run lint
+      - name: Run tests
+        run: npm run test
